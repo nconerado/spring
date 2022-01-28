@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+  build:
+    commands:
+      - java -version
+      - mvn package
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'target/gs-spring-boot-0.1.0.jargit add'
