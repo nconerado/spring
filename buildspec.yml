@@ -8,7 +8,6 @@ phases:
     commands:
       - java -version
       - mvn package
-artifacts:
+artefacts:
   files:
-    - '**/*'
-  base-directory: 'target/gs-spring-boot-0.1.0.jar'
+    - target/gs-spring-boot-0.1.0.jar
