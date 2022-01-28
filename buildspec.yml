@@ -13,8 +13,8 @@ phases:
     commands:
     - echo Build completed on `date`
     - mvn package
-    - mv target/bike-service-0.0.1-SNAPSHOT.war bike-service-0.0.1-SNAPSHOT.war
+    - mv target/javaconfig-0.0.1-SNAPSHOT.jar javaconfig-0.0.1-SNAPSHOT.jar
 artifacts:
   files:
-  - bike-service-0.0.1-SNAPSHOT.war
+  - javaconfig-0.0.1-SNAPSHOT.jar
   - .ebextensions/**/*
