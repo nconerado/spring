@@ -6,7 +6,7 @@ phases:
       java: corretto8
   build:
     commands:
-      - echo Build started on 'date'
+      - echo Build startedd on 'date'
       - run test
     post_build:
       commands:
