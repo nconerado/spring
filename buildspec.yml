@@ -6,8 +6,14 @@ phases:
       java: corretto8
   build:
     commands:
-      - java -version
-      - mvn package
+      - echo Build started on 'date'
+      - run test
+    post_build:
+      commands:
+      - echo Build completed on 'date'
+      - nvm packege
 artefacts:
   files:
     - target/gs-spring-boot-0.1.0.jar
+
+
